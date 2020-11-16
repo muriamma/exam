@@ -1,0 +1,367 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.body{
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/*header section start*/
+.month{
+    width: 100%;
+    float: left;
+}
+.logo{
+    width: 20%;
+    padding: 30px 0px;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: left;
+    padding: 38px 0px;
+    margin-left: 100px;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    font-size: 13.2px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+/*header section end*/
+/*scond section start*/
+.scond{
+    width: 100%;
+    float: left;
+    background: url(../img/banner.jpg);
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+}
+.scond::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #afbfb4;
+    opacity: 0.4;
+}
+.scond-text{
+    width: 100%;
+    float: left;
+    z-index: 11;
+    position: relative;
+}
+.scond-text h2{
+    text-align: center;
+    font-size: 49.2px;
+    color: #fff;
+    padding-top: 170px;
+}
+.scond-text h5{
+    font-size: 35.2px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 23px;
+}
+.scond-btn{
+    padding: 20px 50px;
+    background: #99c50a;
+    margin-left: 430px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: none;
+    margin-bottom: 165px;
+    z-index: 11;
+    position: relative;
+    font-size: 19.2px;
+}
+/*scond section end*/
+/*third section start*/
+.third{
+    width: 100%;
+    float: left;
+}
+.third-icon{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.third-text{
+    width: 100%;
+    float: left;
+    text-align: center; 
+}
+.third-text h2{
+    padding-top: 50px;
+    font-size: 31.2px;
+    padding-bottom: 70px;
+}
+.third-text p{
+    font-size: 19.2;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.third-p{
+    font-size: 19.2;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 135px;
+}
+/*third section end*/
+/*forth section start*/
+.forth{
+    width: 100%;
+    float: left;
+    background: url(../img/bg2.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+.forth-section-one{
+    width: 50%;
+    float: left;
+}
+.forth-one{
+    width: 50%;
+    float: left;
+    background: #e2f8ff;
+}
+.forth-one img{
+    padding-top: 85px;
+    padding-bottom: 112px;
+    padding-left: 100px;
+}
+.forth-two{
+    width: 50%;
+    float: left;
+    background: #e2f8ff
+}
+.forth-two h2{
+    font-size: 23.2px;
+    padding-top: 49px;
+    padding-bottom: 36px;
+}
+.forth-two p{
+    font-size: 17.2px;
+    padding-bottom: 30px;
+}
+.forth-one-btn{
+    background: #26a6d1;
+    font-size: 23.2px;
+    padding: 8px 13px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    box-shadow: none;
+}
+.forth-section-two{
+    width: 50%;
+    float: left;
+}
+.forth-one-two{
+    width: 50%;
+    float: left;
+    background: #f5f9eb;
+}
+.forth-one-two img{
+    padding-top: 85px;
+    padding-bottom: 132px;
+    padding-left: 100px;
+}
+.forth-one-three{
+    width: 50%;
+    float: left;
+    background: #f5f9eb;
+}
+.forth-one-three h2{
+    font-size: 23.2px;
+    padding-top: 49px;
+    padding-bottom: 36px;
+}
+.forth-one-three p{
+    font-size: 17.2px;
+    padding-bottom: 30px;
+}
+.forth-two-btn{
+    background: #add136;
+    font-size: 23.2px;
+    padding: 8px 13px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    box-shadow: none;
+}
+/*forth section end*/
+/*five section start*/
+.five{
+    width: 100%;
+    float: left;
+}
+.five-section{
+    width: 100%;
+    float: left;
+    padding-top: 73px;
+}
+.five-one{
+    width: 80%;
+    float: left;
+}
+.five-one h2{
+    font-size: 29.2px;
+    
+    padding-bottom: 34px;
+}
+.five-one p{
+    font-size: 17.2px;
+}
+.five-two{
+    width: 20%;
+    float: left;
+}
+.five-btn{
+    margin-top: 35px;
+    margin-bottom: 90px;
+    padding: 17px 15px;
+    font-size: 14.83px;
+    border-radius: 10px;
+    float: right;
+    box-shadow: none;
+}
+/*five section end*/
+/*six section start*/
+.six{
+    width: 100%;
+    float: left;
+}
+.six-one{
+    width: 30.7%;
+    float: left;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.six-content{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+.six-contect img{
+    width: 100%;
+}
+.image-content{
+    margin-top: -70px;
+    margin-left: 190px;
+}
+.six-btn{
+    background: #26a6d1;
+    font-size: 16.51px;
+    padding: 8px 4px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+.six-text{
+    width: 100%;
+    float: left;
+}
+.six-text h2{
+    width: 100%;
+    font-size: 17.2px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.six-text p{
+    width: 90%;
+    font-size: 13.2px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+.six-text-one{
+    width: 100%;
+    float: left;
+}
+.six-text-one1{
+    width: 47%;
+    float: left;
+    padding-left: 10px;
+}
+.six-text-one1 h4{
+    font-size: 13.2px;
+    float: left;
+}
+.six-text-one3{
+    width: 47%;
+    float: left;
+}
+.six-text-one3 h4{
+    font-size: 13.2px;
+    float: right;
+}
+.span-class{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.span-class span{
+    border-bottom: 2px solid silver;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding-top: 10px;
+}
+.project{
+    width: 100%;
+    float: left;
+    padding-bottom: 25px;
+}
+.project h2{
+    font-size: 15.2px;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.project span{
+    color: green;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+/*six section end*/
+/*seven section start*/
+.last{
+    width: 100%;
+    float: left;
+    background: url(../img/f.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 50px;
+    margin-top: 100px;
+}
+/*seven section end*/
+/*footer section start*/
+.last-one{
+    width: 100%;
+    float: left;
+}
+.footer-text{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.footer-text h2{
+    font-size: 13.2px;
+    padding-top: 30px;
+}
+/*footer section end*/
